@@ -727,6 +727,12 @@ svg {
   .logo {
     display: flex;
     justify-content: center;
+    top: 23px;
+    position: relative;
+  }
+
+  .first-form {
+    margin-top: 56px;
   }
 
   .first-slide {
@@ -741,9 +747,10 @@ svg {
     position: absolute;
     background-color: var(--maincolor);
     width: 115px;
-    height: 25px;
+    height: 35px;
     border-radius: 5px;
     top: 90%;
+    font-size: 19px;
     right: 14px;
     cursor: pointer;
     color: #fff;
@@ -756,7 +763,8 @@ svg {
     position: absolute;
     background-color: var(--maincolor);
     width: 115px;
-    height: 25px;
+    height: 35px;
+    font-size: 19px;
     border-radius: 5px;
     top: 90%;
     left: 18px;
@@ -803,7 +811,7 @@ svg {
   }
 
   .wrap .start .right p {
-    font-size: 13px;
+    font-size: 16px;
     text-align: center;
   }
 
@@ -855,6 +863,13 @@ svg {
     width: 94%;
   }
 
+  form .email input,
+  .password input,
+  .confirm-password input,
+  .phone input {
+    font-size: 16px;
+  }
+
   .wrap .start {
     display: flex;
     flex-direction: column;
@@ -863,7 +878,7 @@ svg {
   }
 
   .wrap .start .right h1 {
-    font-size: 18px;
+    font-size: 23px;
     text-align: center;
   }
 
@@ -879,6 +894,8 @@ svg {
 
   .rght a {
     padding: 0 0 0 20px;
+    font-size: 15px;
+    font-weight: bold;
   }
 
   .left {
@@ -893,6 +910,15 @@ svg {
   /* Second form */
   .first-slide {
     display: none;
+    margin-top: 50px;
+  }
+
+  .header-frstSlide h1 {
+    font-size: 23px;
+  }
+
+  .header-frstSlide p {
+    font-size: 16px;
   }
 
   .first-slide .header-frstSlide {
@@ -912,6 +938,13 @@ svg {
     padding: 10px 10px 5px 10px;
   }
 
+  .box-slide .store-name input,
+  .box-slide .language input,
+  .box-slide .currency input,
+  .box-slide .country input {
+    font-size: 16px;
+  }
+
   .box-slide .box-right {
     width: 100%;
     padding: 0px 10px 0px 10px;
@@ -922,14 +955,19 @@ svg {
     padding: 6px;
   }
 
+  .box-search input {
+    font-size: 16px;
+  }
+
   .small-slide {
-    margin-top: 8px;
+    margin-top: 16px;
   }
 
   /* Third Form */
 
   .wrap .third-form {
     display: none;
+    margin-top: 75px;
   }
 
   .survey {
@@ -938,7 +976,7 @@ svg {
 
   .para {
     padding: 10px 0 10px 38px;
-    font-size: 16px;
+    font-size: 19px;
   }
 
   .list {
@@ -950,8 +988,8 @@ svg {
   .list .para2,
   .list .para3,
   .list .para4 {
-    margin-bottom: 10px;
-    font-size: 14px;
+    margin-bottom: 20px;
+    font-size: 16px;
   }
 
   .PARA {
@@ -963,8 +1001,8 @@ svg {
   .list .para6,
   .list .para7 {
     margin-left: -33px;
-    margin-bottom: 10px;
-    font-size: 14px;
+    margin-bottom: 15px;
+    font-size: 16px;
   }
 
   .PARA::after {
@@ -980,11 +1018,16 @@ svg {
   .confirmation-email h3 {
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 16px;
+  }
+
+  .last-step-Mobile {
+    margin-top: 65px;
   }
 
   .inbox {
-    font-size: 15px;
+    font-size: 16px;
+    margin-top: 12px;
     justify-content: center;
   }
 
@@ -1003,12 +1046,18 @@ svg {
     font-size: 14px;
   }
 
+  .resend-email P {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 17px;
+  }
+
   .last-step-Mobile .resend {
     border-radius: 5px;
-    padding: 8px 15px;
+    padding: 12px 5px;
     border: 1px solid #178bfc;
     background-color: #fff;
-    font-size: 12px;
+    font-size: 15px;
     margin-top: 25px;
     cursor: pointer;
     transform: translateX(104%);
